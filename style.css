@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: "poppins",sans-serif;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18,18,62);
+}
+nav ul{
+ display: flex;
+ justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 24px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+   color: rgb(153,153,153);
+   font-size: 1.04rem;
+}
+.left{
+ font-size: 2.5rem;
+}  
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+}
+.firstSection > div{
+    width: 40%;
+}
+.leftSection{
+    font-size: 3rem; 
+}
+.leftSection .button{
+    padding: 46px 0px;
+}
+.leftSection .btn{
+    padding: 12px;
+    background: rgb(30, 33, 103);
+    color: white;
+    border: 2px solid white;
+    font-size: 26px;
+    cursor: pointer;
+}
+.rightSection img{
+    width: 110%;
+}
+.purpal{
+  color: rgb(170,107,228);
+}
+#element{
+    color: rgb(170,107,228);
+}
+
+/* ----------secondSection------- */
+.secondSection{
+    max-width: 80vw;
+    margin-top: 20px;
+    height: 64vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.secondSection .text-grey{
+    font-size: 30px;
+}
+.secondSection h1{
+    font-size:3.9rem ;
+}
+.secondSection .box{
+    background: white;
+    width: 50vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 145px;
+}
+.image-top {
+    width: 67px;
+    position: relative;
+    top: -55px;
+    left: -25px;
+}
+.vertical-title{
+    position: relative;
+    top: 31px;
+    width: 235px;
+    left: -20px;
+    font-size: 25px;
+}
+.vertical-desc{
+    position: relative;
+    top: 44px;
+    color: #897eb0;
+    width: 215px;
+    font-size: 20px;
+}
+footer{
+    background-color: #0e0e1a;
+}
+.footer{
+   display: flex;
+   padding:23px 122px ;
+   justify-content:space-evenly;
+}
+.footer h3{
+    font-size: 25px;
+}
+.footer ul{
+    list-style: none;
+    font-size: 24px;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
+    font-size: 20px;
+}
